@@ -38,3 +38,6 @@
 #about-me .team-member img.img-circle { object-fit: cover; object-position: center; width: 150px; height: 150px; }
 .pub-buttons .btn, .pub-buttons .btn-primary { padding: 1px 8px; font-size: 12px; line-height: 1.5; border-radius: 3px; min-width: 0; }
 .pub-buttons .btn-primary { background: #337ab7; border-color: #2e6da4; color: #fff; }
+
+/* first and last name in the same color */
+#about-me .team-member h4, #about-me .team-member h4 .navy { color: #333 !important; }

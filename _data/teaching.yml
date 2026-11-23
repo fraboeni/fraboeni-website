@@ -1,4 +1,14 @@
 # Teaching samples shown on the landing page. Each one has its own page in teaching/.
+- title: "Gradient-Based Adversarial Attacks: FGSM and its Extensions"
+  url: /adversarial-examples/
+  img: /static/assets/teaching/2026-adversarial-examples/adversarial.png
+  desc: How gradients turn into attacks on ML models, from FGSM to BIM and PGD, and adversarial training as a defense.
+
+- title: "BGP Security: The Threat of Prefix Hijacks"
+  url: /bgp/
+  img: /static/assets/teaching/2026-bgp/bgp.png
+  desc: Why the protocol that holds the internet together runs on trust, how prefix hijacks exploit it, and how RPKI and BGPsec defend against them.
+
 - title: Long Short-Term Memory
   url: /lstms/
   img: /static/assets/teaching/2026-04-lstms/lstms.png
