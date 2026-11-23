@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="row m-b-lg">
+    <div class="col-lg-12 text-center">
+      <div class="navy-line"></div>
+      <h1>Selected Publications</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <p class="pub-intro">
+        See the <a href="{{ '/publications/' | relative_url }}">full list of publications</a>
+        and my <a href="https://scholar.google.com/citations?user={{ site.author.google_scholar_id }}" target="_blank">Google Scholar</a> profile.
+      </p>
+      {% for p in site.data.publications %}{% if p.selected %}
+        {% include pub.html prefix="sel-" %}
+      {% endif %}{% endfor %}
+    </div>
+  </div>
+</div>

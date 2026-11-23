@@ -1,0 +1,24 @@
+# Sections of the landing page, in order. Remove a block to hide a section.
+- id: about-me
+  name: About
+  tpl: about.html
+
+- id: publications
+  name: Publications
+  tpl: publications.html
+
+- id: teaching
+  name: Teaching
+  tpl: teaching.html
+  css: project
+
+- id: experience
+  name: Experience
+  tpl: experience.html
+  css: timeline
+
+# Talks come from ../academic-records/talks.bib (entries with website = {true}).
+# Uncomment to show them on the website:
+# - id: talks
+#   name: Talks
+#   tpl: talks.html

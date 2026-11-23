@@ -1,0 +1,15 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="{{ page.description | default: site.description }}" name="description">
+  <meta name="keywords" content="{{ site.keywords }}">
+  <meta name="author" content="{{ site.author.name }}">
+  <title>{% if page.title and page.title != "index" %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <link rel="shortcut icon" href="{{ '/static/assets/img/favicon.ico' | relative_url }}">
+  <link href="{{ '/static/assets/app-20171204.min.css' | relative_url }}" rel="stylesheet">
+  <link href="{{ '/static/css/custom.css' | relative_url }}" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <script src="{{ '/static/assets/app-20171204.min.js' | relative_url }}"></script>
+  {% if page.mathjax %}<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>{% endif %}
+</head>

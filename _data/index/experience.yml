@@ -1,0 +1,36 @@
+# Experience section (newest first)
+- name:
+    detail: Technical University of Munich (TUM) & Fraunhofer AISEC
+  job:
+    detail: Full Professor (Chair of Software and System Security) and Director of Fraunhofer AISEC
+  date:
+    detail: October 2026 - present
+  desc:
+    detail: Privacy and security of large AI models and the systems they are embedded in.
+
+- name:
+    detail: CISPA Helmholtz Center for Information Security
+  job:
+    detail: Tenure Track Faculty
+  date:
+    detail: September 2023 - September 2026
+  desc:
+    detail: Co-led the SprintML lab on trustworthy machine learning.
+
+- name:
+    detail: Vector Institute & University of Toronto
+  job:
+    detail: Postdoctoral Fellow
+  date:
+    detail: August 2022 - August 2023
+  desc:
+    detail: 'Trustworthy and private machine learning from the perspective of individual users. Advised by <a href="https://www.papernot.fr/" target="_blank">Prof. Dr. Nicolas Papernot</a>.'
+
+- name:
+    detail: Freie Universität Berlin & Fraunhofer AISEC
+  job:
+    detail: PhD Candidate and Research Associate
+  date:
+    detail: September 2019 - November 2022
+  desc:
+    detail: "PhD thesis: Secure and Private Machine Learning (summa cum laude). Advisor: Prof. Marian Margraf."

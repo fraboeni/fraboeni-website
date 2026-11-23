@@ -1,0 +1,20 @@
+# Teaching samples shown on the landing page. Each one has its own page in teaching/.
+- title: Long Short-Term Memory
+  url: /lstms/
+  img: /static/assets/teaching/2026-04-lstms/lstms.png
+  desc: Flipped-classroom lecture on LSTMs with video, slides, podcast, a quiz and a coding notebook.
+
+- title: Diffie-Hellman
+  url: /diffie-hellman/
+  img: /static/assets/teaching/2026-01-diffie-hellman/diffie-hellman.png
+  desc: Secure key exchange over insecure channels, why it works, how it breaks, and how to fix it.
+
+- title: Data Modeling
+  url: /datamodel/
+  img: /static/assets/teaching/2025-11-datamodeling/datamodel.png
+  desc: Relational and NoSQL data models, their strengths and weaknesses, and which one to choose when.
+
+- title: Feature Importance in Decision Trees
+  url: /trees/
+  img: /static/assets/teaching/2025-07-trees/trees.png
+  desc: How decision trees are built from impurity measures and how feature importance connects to explainable AI.

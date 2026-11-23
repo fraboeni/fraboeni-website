@@ -1,0 +1,17 @@
+---
+layout: page
+title: Publications
+permalink: /publications/
+---
+<p class="pub-intro">
+  Generated from my publication list ({{ site.data.publications | size }} papers).
+  Also see <a href="https://scholar.google.com/citations?user={{ site.author.google_scholar_id }}" target="_blank">Google Scholar</a>
+  &middot; <a href="{{ '/static/assets/bib/publications.bib' | relative_url }}">BibTeX of all papers</a>.
+</p>
+<p class="year-nav">{% for y in site.data.publication_years %}<a href="#y{{ y }}">{{ y }}</a>{% unless forloop.last %} &middot; {% endunless %}{% endfor %}</p>
+{% for y in site.data.publication_years %}
+<h3 class="pubyear" id="y{{ y }}">{{ y }}</h3>
+{% for p in site.data.publications %}{% if p.year == y %}
+  {% include pub.html prefix="all-" %}
+{% endif %}{% endfor %}
+{% endfor %}

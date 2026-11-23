@@ -1,0 +1,40 @@
+---
+
+---
+
+@import "pygments";
+@import "open_sans";
+@import "roboto";
+@import "style";
+
+/* ---- additions for franziska-boenisch.de ---- */
+.pub-intro, .section-intro { color: #676a6c; margin-bottom: 25px; }
+.pub-entry { margin-bottom: 22px; text-align: left; }
+.pub-title { font-weight: 600; font-size: 15px; color: #333; }
+.pub-authors { margin: 2px 0; }
+.pub-me { font-weight: 600; text-decoration: underline; }
+.pub-venue { margin-bottom: 4px; }
+.pub-venue .label { margin-left: 4px; font-size: 75%; vertical-align: middle; }
+.pub-buttons .btn { margin: 2px 4px 2px 0; }
+.pub-box { background: #f7f7f7; border-radius: 4px; padding: 10px 12px; margin-top: 6px; font-size: 13px; }
+.pub-box pre { margin: 0; background: transparent; border: 0; white-space: pre-wrap; font-size: 12px; }
+.pubyear { margin-top: 30px; border-bottom: 1px solid #e7eaec; padding-bottom: 4px; }
+.year-nav a { margin: 0 3px; }
+.teaching-card { display: block; color: #333; margin-bottom: 30px; padding: 12px; border-radius: 6px; transition: box-shadow .2s; }
+.teaching-card:hover, .teaching-card:focus { text-decoration: none; color: #333; box-shadow: 0 2px 12px rgba(0,0,0,.15); }
+.teaching-card img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; object-position: top; border-radius: 4px; border: 1px solid #e7eaec; }
+.teaching-card h4 { margin-top: 14px; color: #337ab7; font-size: 16px; }
+.subpage { padding-top: 90px; padding-bottom: 40px; }
+.page-content { text-align: left; }
+.page-content img { max-width: 100%; height: auto; }
+.page-content iframe { max-width: 100%; }
+.page-content pre { white-space: pre; overflow-x: auto; }
+.page-title { margin-bottom: 25px; }
+.back-link { margin-top: 30px; }
+.talk-list { text-align: left; }
+.talk-list li { margin-bottom: 8px; }
+.site-footer { padding: 25px 0; color: #888; font-size: 13px; border-top: 1px solid #e7eaec; }
+
+#about-me .team-member img.img-circle { object-fit: cover; object-position: center; width: 150px; height: 150px; }
+.pub-buttons .btn, .pub-buttons .btn-primary { padding: 1px 8px; font-size: 12px; line-height: 1.5; border-radius: 3px; min-width: 0; }
+.pub-buttons .btn-primary { background: #337ab7; border-color: #2e6da4; color: #fff; }

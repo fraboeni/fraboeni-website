@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="row m-b-lg">
+    <div class="col-lg-12 text-center">
+      <div class="navy-line"></div>
+      <h1>Teaching Samples</h1>
+      <p class="section-intro">Self-contained lecture units with video, slides, an audio version and exercises.</p>
+    </div>
+  </div>
+  <div class="row teaching-grid">
+    {% for t in site.data.teaching %}
+    <div class="col-sm-6">
+      <a class="teaching-card" href="{{ t.url | relative_url }}">
+        <img src="{{ t.img | relative_url }}" alt="{{ t.title }}" class="img-responsive">
+        <h4>{{ t.title }}</h4>
+        <p>{{ t.desc }}</p>
+      </a>
+    </div>
+    {% assign m = forloop.index | modulo: 2 %}{% if m == 0 %}<div class="clearfix"></div>{% endif %}
+    {% endfor %}
+  </div>
+</div>

@@ -1,0 +1,80 @@
+# =============================================================================
+#  Website settings (private source repo)
+#  Build locally:   bash serve.sh   (preview at http://localhost:4000)
+#  Publish:         bash deploy.sh  (builds and copies ONLY the built site into
+#                                    ../fraboeni.github.io, then asks before pushing)
+# =============================================================================
+
+title: Franziska Boenisch
+description: Homepage of Prof. Dr. Franziska Boenisch, TUM and Fraunhofer AISEC
+keywords: Franziska Boenisch, TUM, Fraunhofer AISEC, privacy, machine learning, security, memorization, differential privacy
+baseurl: ""
+url: https://franziska-boenisch.de
+
+author:
+  name: Franziska Boenisch
+  first_name: Franziska
+  last_name: Boenisch
+  avatar: /static/assets/img/landing/FranziskaBoenisch2026.jpg
+  email: franziska.boenisch@tum.de
+  google_scholar_id: jKY0y8gAAAAJ
+  github_username: fraboeni
+  linkedin_id: fraboeni
+  twitter_username: fraboeni
+  cv:        # optional: path to a CV PDF placed in static/assets/ (left empty: the CV contains personal data)
+  # Short bio on the landing page. Plain HTML.
+  desc: >-
+    <p align="left">I am a Full Professor at the
+    <a href="https://www.tum.de/en/" target="_blank">Technical University of Munich (TUM)</a>,
+    where I hold the Chair of Software and System Security, and Director of the
+    <a href="https://www.aisec.fraunhofer.de/en.html" target="_blank">Fraunhofer Institute for Applied and Integrated Security (AISEC)</a>.
+    Together with <a href="https://adam-dziedzic.com/" target="_blank">Adam Dziedzic</a>, I lead the
+    <a href="https://sprintml.com/" target="_blank">SprintML lab</a>.
+    <br><br>
+    My research asks what it takes to trust large AI models. Foundation models learn from enormous
+    amounts of data and remember more of it than they should. They write our code, act as agents on
+    our behalf, and are built into systems that handle sensitive information. My group finds out
+    where these models and the systems around them leak private data or can be attacked, makes these
+    risks measurable through auditing and red teaming, and builds defenses with provable guarantees,
+    from differential privacy to unlearning and watermarking. We want AI that people and organizations
+    can use without giving up their privacy or their security. This work is supported by an
+    <b>ERC Starting Grant</b> (Privacy4FMs).
+    <br><br>
+    Before joining TUM, I was a faculty member at the
+    <a href="https://cispa.de/en" target="_blank">CISPA Helmholtz Center for Information Security</a>
+    and a Postdoctoral Fellow at the <a href="https://vectorinstitute.ai/" target="_blank">Vector Institute</a>
+    in Toronto, advised by <a href="https://www.papernot.fr/" target="_blank">Prof. Dr. Nicolas Papernot</a>.
+    I did my PhD at Freie Universit&auml;t Berlin while working at Fraunhofer AISEC.
+    <br><br>
+    <b>Open positions</b> and our current projects are listed on the
+    <a href="https://sprintml.com/" target="_blank">SprintML website</a>.</p>
+
+# Sections of the landing page are configured in _data/landing.yml.
+# Publications come from _data/publications.json, written by
+#   ../academic-records/sync.py   (do not edit the JSON by hand)
+
+sass:
+  style: compressed
+  # the theme's stylesheets use @import; harmless, so hide the Dart Sass deprecation notices
+  silence_deprecations: [import]
+  quiet_deps: true
+encoding: utf-8
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - serve.sh
+  - build.sh
+  - deploy.sh
+  - package.json
+  - package-lock.json
+  - node_modules
+  - vendor
+  - docs
+  - LICENSE
